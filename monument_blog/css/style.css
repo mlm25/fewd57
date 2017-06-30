@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+		text-align: center;
+		color: #44545E;
+		font-family: "Raleway", sans-serif;
+		font-weight: 600;
+		margin-left: 100px;
+		margin-right: 100px;
+		-webkit-font-smoothing: antialiased;
+}
+nav a{
+	color: #7B98AA;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 50px 50px 50px 50px;
+}
+
+h1 a{
+	color:#44545E;
+	font-size: 37px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+
+h3{
+	font-size: 18px;
+	text-align: left;
+}
+
+h2{
+	font-size: 23px;
+	text-transform: uppercase;
+	text-align: left;
+}
+/*how do select this so i change the font here? */
+
+article p{
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 15px;
+	text-align: left;
+}
+
+footer{
+	background-color: #CDF3F6;
+	padding: 20px;
+}
+
+footer a{
+	text-align: center;
+	color: #44545E;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+hr{
+	border: none;
+  border-bottom: 2px solid #44545E;
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+
+footer p a{
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: none;
+}
+
+img {
+	max-width: 100%;
+}
